@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="NZWT">
+    <Sid Name="OVTA1P" Runways="04">
+      <Sid_Waypoint ID="1">
+        <Name>(420)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>420</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>035</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </Sid_Waypoint>
+      <Sid_Waypoint ID="2">
+        <Name>OVTAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.798169</Latitude>
+        <Longitude>175.783389</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </Sid_Waypoint>
+      <Sid_Transition Name="OBKIT">
+        <SidTr_Waypoint ID="1">
+          <Name>OBKIT</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.740686</Latitude>
+          <Longitude>175.451989</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Left</Sp_Turn>
+        </SidTr_Waypoint>
+      </Sid_Transition>
+      <Sid_Transition Name="UGSAP">
+        <SidTr_Waypoint ID="1">
+          <Name>UGSAP</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.740478</Latitude>
+          <Longitude>175.963078</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </SidTr_Waypoint>
+      </Sid_Transition>
+    </Sid>
+    <Approach Name="RNVA04">
+      <App_Waypoint ID="1">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>VETUM</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.771400</Latitude>
+        <Longitude>175.866758</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1630</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>WT423</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.789914</Latitude>
+        <Longitude>175.808931</Longitude>
+        <Speed>0</Speed>
+        <Altitude>670</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW04</Name>
+        <Type>Runway</Type>
+        <Latitude>-36.832306</Latitude>
+        <Longitude>175.676317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>65</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UGSAP</Name>
+        <Type>Hold</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>228</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="IGOVU">
+        <AppTr_Waypoint ID="1">
+          <Name>IGOVU</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.662983</Latitude>
+          <Longitude>175.924647</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="OLVOL">
+        <AppTr_Waypoint ID="1">
+          <Name>OLVOL</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.817958</Latitude>
+          <Longitude>176.001586</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UGSAP">
+        <AppTr_Waypoint ID="1">
+          <Name>UGSAP</Name>
+          <Type>Hold</Type>
+          <Latitude>-36.740478</Latitude>
+          <Longitude>175.963078</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+          <Hld_Rad_value>228</Hld_Rad_value>
+          <Hld_Turn>Right</Hld_Turn>
+          <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+          <Hld_td_value>1.0</Hld_td_value>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVA16">
+      <App_Waypoint ID="1">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>VETUM</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.771400</Latitude>
+        <Longitude>175.866758</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1630</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>WT423</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.789914</Latitude>
+        <Longitude>175.808931</Longitude>
+        <Speed>0</Speed>
+        <Altitude>670</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW16</Name>
+        <Type>Runway</Type>
+        <Latitude>-36.825436</Latitude>
+        <Longitude>175.679925</Longitude>
+        <Speed>0</Speed>
+        <Altitude>65</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UGSAP</Name>
+        <Type>Hold</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>228</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="IGOVU">
+        <AppTr_Waypoint ID="1">
+          <Name>IGOVU</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.662983</Latitude>
+          <Longitude>175.924647</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="OLVOL">
+        <AppTr_Waypoint ID="1">
+          <Name>OLVOL</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.817958</Latitude>
+          <Longitude>176.001586</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UGSAP">
+        <AppTr_Waypoint ID="1">
+          <Name>UGSAP</Name>
+          <Type>Hold</Type>
+          <Latitude>-36.740478</Latitude>
+          <Longitude>175.963078</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+          <Hld_Rad_value>228</Hld_Rad_value>
+          <Hld_Turn>Right</Hld_Turn>
+          <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+          <Hld_td_value>1.0</Hld_td_value>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVA22">
+      <App_Waypoint ID="1">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>VETUM</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.771400</Latitude>
+        <Longitude>175.866758</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1630</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>WT423</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.789914</Latitude>
+        <Longitude>175.808931</Longitude>
+        <Speed>0</Speed>
+        <Altitude>670</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW22</Name>
+        <Type>Runway</Type>
+        <Latitude>-36.825625</Latitude>
+        <Longitude>175.688550</Longitude>
+        <Speed>0</Speed>
+        <Altitude>65</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UGSAP</Name>
+        <Type>Hold</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>228</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="IGOVU">
+        <AppTr_Waypoint ID="1">
+          <Name>IGOVU</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.662983</Latitude>
+          <Longitude>175.924647</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="OLVOL">
+        <AppTr_Waypoint ID="1">
+          <Name>OLVOL</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.817958</Latitude>
+          <Longitude>176.001586</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UGSAP">
+        <AppTr_Waypoint ID="1">
+          <Name>UGSAP</Name>
+          <Type>Hold</Type>
+          <Latitude>-36.740478</Latitude>
+          <Longitude>175.963078</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+          <Hld_Rad_value>228</Hld_Rad_value>
+          <Hld_Turn>Right</Hld_Turn>
+          <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+          <Hld_td_value>1.0</Hld_td_value>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVA34">
+      <App_Waypoint ID="1">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>VETUM</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.771400</Latitude>
+        <Longitude>175.866758</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1630</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>WT423</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.789914</Latitude>
+        <Longitude>175.808931</Longitude>
+        <Speed>0</Speed>
+        <Altitude>670</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW34</Name>
+        <Type>Runway</Type>
+        <Latitude>-36.831206</Latitude>
+        <Longitude>175.680208</Longitude>
+        <Speed>0</Speed>
+        <Altitude>65</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>UGSAP</Name>
+        <Type>Normal</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UGSAP</Name>
+        <Type>Hold</Type>
+        <Latitude>-36.740478</Latitude>
+        <Longitude>175.963078</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>228</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="IGOVU">
+        <AppTr_Waypoint ID="1">
+          <Name>IGOVU</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.662983</Latitude>
+          <Longitude>175.924647</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="OLVOL">
+        <AppTr_Waypoint ID="1">
+          <Name>OLVOL</Name>
+          <Type>Normal</Type>
+          <Latitude>-36.817958</Latitude>
+          <Longitude>176.001586</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UGSAP">
+        <AppTr_Waypoint ID="1">
+          <Name>UGSAP</Name>
+          <Type>Hold</Type>
+          <Latitude>-36.740478</Latitude>
+          <Longitude>175.963078</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+          <Hld_Rad_value>228</Hld_Rad_value>
+          <Hld_Turn>Right</Hld_Turn>
+          <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+          <Hld_td_value>1.0</Hld_td_value>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

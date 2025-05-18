@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="OSDZ">
+    <Approach Name="VOR28">
+      <App_Waypoint ID="1">
+        <Name>FS28</Name>
+        <Type>Normal</Type>
+        <Latitude>35.251903</Latitude>
+        <Longitude>40.287636</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2500</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>RW28</Name>
+        <Type>Runway</Type>
+        <Latitude>35.280919</Latitude>
+        <Longitude>40.191522</Longitude>
+        <Speed>0</Speed>
+        <Altitude>750</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>DRZ</Name>
+        <Type>Normal</Type>
+        <Latitude>35.291944</Latitude>
+        <Longitude>40.153778</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>DRZ</Name>
+        <Type>Hold</Type>
+        <Latitude>35.291944</Latitude>
+        <Longitude>40.153778</Longitude>
+        <Speed>185</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>286</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="DRZ1">
+        <AppTr_Waypoint ID="1">
+          <Name>DRZ</Name>
+          <Type>Normal</Type>
+          <Latitude>35.291944</Latitude>
+          <Longitude>40.153778</Longitude>
+          <Speed>210</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>DRZ</Name>
+          <Type>DmeIntc</Type>
+          <Latitude>35.291944</Latitude>
+          <Longitude>40.153778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2500</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>088</Hdg_Crs_value>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>10.0</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="DRZ2">
+        <AppTr_Waypoint ID="1">
+          <Name>DRZ</Name>
+          <Type>Normal</Type>
+          <Latitude>35.291944</Latitude>
+          <Longitude>40.153778</Longitude>
+          <Speed>210</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>DRZ</Name>
+          <Type>DmeIntc</Type>
+          <Latitude>35.291944</Latitude>
+          <Longitude>40.153778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2500</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>094</Hdg_Crs_value>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>10.0</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

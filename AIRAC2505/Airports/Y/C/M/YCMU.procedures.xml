@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="YCMU">
+    <Approach Name="NDB30">
+      <App_Waypoint ID="1">
+        <Name>FN30</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.071158</Latitude>
+        <Longitude>145.697814</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>RW30</Name>
+        <Type>Runway</Type>
+        <Latitude>-28.036803</Latitude>
+        <Longitude>145.633175</Longitude>
+        <Speed>0</Speed>
+        <Altitude>680</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>CMU</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.034764</Latitude>
+        <Longitude>145.623750</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(2200)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2200</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>290</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="CMU1">
+        <AppTr_Waypoint ID="1">
+          <Name>CMU</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.034764</Latitude>
+          <Longitude>145.623750</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>CMU</Name>
+          <Type>PBD</Type>
+          <Latitude>-28.034764</Latitude>
+          <Longitude>145.623750</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>142</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="CMU2">
+        <AppTr_Waypoint ID="1">
+          <Name>CMU</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.034764</Latitude>
+          <Longitude>145.623750</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>CMU</Name>
+          <Type>PBD</Type>
+          <Latitude>-28.034764</Latitude>
+          <Longitude>145.623750</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>128</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>006</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNV12">
+      <App_Waypoint ID="1">
+        <Name>CMUWI</Name>
+        <Type>Normal</Type>
+        <Latitude>-27.937500</Latitude>
+        <Longitude>145.500750</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2200</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>CMUWF</Name>
+        <Type>Normal</Type>
+        <Latitude>-27.980667</Latitude>
+        <Longitude>145.558278</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2040</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>CMUWM</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.023806</Latitude>
+        <Longitude>145.615833</Longitude>
+        <Speed>0</Speed>
+        <Altitude>766</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW12</Name>
+        <Type>Runway</Type>
+        <Latitude>-28.026717</Latitude>
+        <Longitude>145.619706</Longitude>
+        <Speed>0</Speed>
+        <Altitude>680</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>CMUWH</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.065667</Latitude>
+        <Longitude>145.511444</Longitude>
+        <Speed>210</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2200</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>270</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="CMUWA">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUWA</Name>
+          <Type>Normal</Type>
+          <Latitude>-27.970694</Latitude>
+          <Longitude>145.435417</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="CMUWB">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUWB</Name>
+          <Type>Normal</Type>
+          <Latitude>-27.894333</Latitude>
+          <Longitude>145.443306</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="CMUWC">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUWC</Name>
+          <Type>Normal</Type>
+          <Latitude>-27.874778</Latitude>
+          <Longitude>145.526750</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNV30">
+      <App_Waypoint ID="1">
+        <Name>CMUEI</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.125889</Latitude>
+        <Longitude>145.752333</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2200</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>CMUEF</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.082806</Latitude>
+        <Longitude>145.694667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2030</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>CMUEM</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.039722</Latitude>
+        <Longitude>145.637056</Longitude>
+        <Speed>0</Speed>
+        <Altitude>762</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW30</Name>
+        <Type>Runway</Type>
+        <Latitude>-28.036803</Latitude>
+        <Longitude>145.633175</Longitude>
+        <Speed>0</Speed>
+        <Altitude>680</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>CMUEH</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.007361</Latitude>
+        <Longitude>145.593861</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2200</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>145</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="CMUED">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUED</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.092556</Latitude>
+          <Longitude>145.817694</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="CMUEE">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUEE</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.168972</Latitude>
+          <Longitude>145.810056</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="CMUEG">
+        <AppTr_Waypoint ID="1">
+          <Name>CMUEG</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.188694</Latitude>
+          <Longitude>145.726389</Longitude>
+          <Speed>210</Speed>
+          <Altitude>2200</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

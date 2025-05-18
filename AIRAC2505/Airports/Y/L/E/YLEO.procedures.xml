@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="YLEO">
+    <Approach Name="NDB04">
+      <App_Waypoint ID="1">
+        <Name>FF04</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.941139</Latitude>
+        <Longitude>121.251881</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2600</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>RW04</Name>
+        <Type>Runway</Type>
+        <Latitude>-28.889119</Latitude>
+        <Longitude>121.306094</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1267</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>LEO</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.878847</Latitude>
+        <Longitude>121.320286</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(3100)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>043</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="LEO1">
+        <AppTr_Waypoint ID="1">
+          <Name>LEO</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.878847</Latitude>
+          <Longitude>121.320286</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>LEO</Name>
+          <Type>PBD</Type>
+          <Latitude>-28.878847</Latitude>
+          <Longitude>121.320286</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>256</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="LEO2">
+        <AppTr_Waypoint ID="1">
+          <Name>LEO</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.878847</Latitude>
+          <Longitude>121.320286</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>LEO</Name>
+          <Type>PBD</Type>
+          <Latitude>-28.878847</Latitude>
+          <Longitude>121.320286</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>238</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>008</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNV22">
+      <App_Waypoint ID="1">
+        <Name>LEONI</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.737014</Latitude>
+        <Longitude>121.435022</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>LEONF</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.803978</Latitude>
+        <Longitude>121.378319</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2950</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>LEONM</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.870919</Latitude>
+        <Longitude>121.321542</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1356</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>RW22</Name>
+        <Type>Runway</Type>
+        <Latitude>-28.874533</Latitude>
+        <Longitude>121.318475</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1267</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>LEONH</Name>
+        <Type>Normal</Type>
+        <Latitude>-28.911075</Latitude>
+        <Longitude>121.287444</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>(3100)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>216</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="LEONA">
+        <AppTr_Waypoint ID="1">
+          <Name>LEONA</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.667156</Latitude>
+          <Longitude>121.383011</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="LEONC">
+        <AppTr_Waypoint ID="1">
+          <Name>LEONC</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.670022</Latitude>
+          <Longitude>121.491656</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="LEOND">
+        <AppTr_Waypoint ID="1">
+          <Name>LEOND</Name>
+          <Type>Normal</Type>
+          <Latitude>-28.760994</Latitude>
+          <Longitude>121.525825</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

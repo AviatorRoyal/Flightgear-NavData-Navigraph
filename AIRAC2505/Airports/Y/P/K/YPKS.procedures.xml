@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="YPKS">
+    <Approach Name="NDBA04">
+      <App_Waypoint ID="1">
+        <Name>FN353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.241869</Latitude>
+        <Longitude>148.244575</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.145256</Latitude>
+        <Longitude>148.252617</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW04</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.137231</Latitude>
+        <Longitude>148.230572</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="NDBA11">
+      <App_Waypoint ID="1">
+        <Name>FN353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.241869</Latitude>
+        <Longitude>148.244575</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.145256</Latitude>
+        <Longitude>148.252617</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW11</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.124792</Latitude>
+        <Longitude>148.230303</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="NDBA22">
+      <App_Waypoint ID="1">
+        <Name>FN353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.241869</Latitude>
+        <Longitude>148.244575</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.145256</Latitude>
+        <Longitude>148.252617</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW22</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.128497</Latitude>
+        <Longitude>148.245347</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="NDBA29">
+      <App_Waypoint ID="1">
+        <Name>FN353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.241869</Latitude>
+        <Longitude>148.244575</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.145256</Latitude>
+        <Longitude>148.252617</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW29</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.132258</Latitude>
+        <Longitude>148.243067</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.145256</Latitude>
+          <Longitude>148.252617</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNV04">
+      <App_Waypoint ID="1">
+        <Name>PKEWI</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.238319</Latitude>
+        <Longitude>148.059208</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKEWF</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.190389</Latitude>
+        <Longitude>148.140572</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2840</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW04</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.137231</Latitude>
+        <Longitude>148.230572</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>PKEWZ</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.108436</Latitude>
+        <Longitude>148.279283</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>(3900)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>044</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKEWD">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEWD</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.318983</Latitude>
+          <Longitude>148.084958</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKEWE">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEWE</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.286197</Latitude>
+          <Longitude>147.977756</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKEWG">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEWG</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.190389</Latitude>
+          <Longitude>147.977842</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNV22">
+      <App_Waypoint ID="1">
+        <Name>PKEEI</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.027200</Latitude>
+        <Longitude>148.416269</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKEEF</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.075306</Latitude>
+        <Longitude>148.335211</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2880</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW22</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.128497</Latitude>
+        <Longitude>148.245347</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>PKEET</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.157311</Latitude>
+        <Longitude>148.196597</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>055</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKEEA">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEEA</Name>
+          <Type>Normal</Type>
+          <Latitude>-32.946606</Latitude>
+          <Longitude>148.390314</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKEEB">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEEB</Name>
+          <Type>Normal</Type>
+          <Latitude>-32.979047</Latitude>
+          <Longitude>148.497239</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKEEC">
+        <AppTr_Waypoint ID="1">
+          <Name>PKEEC</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.074842</Latitude>
+          <Longitude>148.497711</Longitude>
+          <Speed>230</Speed>
+          <Altitude>3900</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="VORA04">
+      <App_Waypoint ID="1">
+        <Name>FF353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.227700</Latitude>
+        <Longitude>148.229242</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.131278</Latitude>
+        <Longitude>148.237306</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW04</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.137231</Latitude>
+        <Longitude>148.230572</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="VORA11">
+      <App_Waypoint ID="1">
+        <Name>FF353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.227700</Latitude>
+        <Longitude>148.229242</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.131278</Latitude>
+        <Longitude>148.237306</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW11</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.124792</Latitude>
+        <Longitude>148.230303</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="VORA22">
+      <App_Waypoint ID="1">
+        <Name>FF353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.227700</Latitude>
+        <Longitude>148.229242</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.131278</Latitude>
+        <Longitude>148.237306</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW22</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.128497</Latitude>
+        <Longitude>148.245347</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="VORA29">
+      <App_Waypoint ID="1">
+        <Name>FF353</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.227700</Latitude>
+        <Longitude>148.229242</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>PKS</Name>
+        <Type>Normal</Type>
+        <Latitude>-33.131278</Latitude>
+        <Longitude>148.237306</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2270</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW29</Name>
+        <Type>Runway</Type>
+        <Latitude>-33.132258</Latitude>
+        <Longitude>148.243067</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1119</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(VECTORS)</Name>
+        <Type>Vectors</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3900</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>1</Hdg_Crs>
+        <Hdg_Crs_value>314</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="PKS1">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>180</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>202</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="PKS2">
+        <AppTr_Waypoint ID="1">
+          <Name>PKS</Name>
+          <Type>Normal</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>120</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>PKS</Name>
+          <Type>PBD</Type>
+          <Latitude>-33.131278</Latitude>
+          <Longitude>148.237306</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>188</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>005</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

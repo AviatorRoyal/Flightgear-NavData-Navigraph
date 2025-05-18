@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="VABV">
+    <Approach Name="VDM07">
+      <App_Waypoint ID="1">
+        <Name>FD07</Name>
+        <Type>Normal</Type>
+        <Latitude>21.716853</Latitude>
+        <Longitude>72.071553</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>MD07</Name>
+        <Type>Normal</Type>
+        <Latitude>21.745747</Latitude>
+        <Longitude>72.172544</Longitude>
+        <Speed>0</Speed>
+        <Altitude>228</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW07</Name>
+        <Type>Runway</Type>
+        <Latitude>21.749817</Latitude>
+        <Longitude>72.179378</Longitude>
+        <Speed>0</Speed>
+        <Altitude>93</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(2100)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>073</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>BVR</Name>
+        <Type>Normal</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>BVR</Name>
+        <Type>Hold</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>271</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="BVR1">
+        <AppTr_Waypoint ID="1">
+          <Name>BVR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.750639</Latitude>
+          <Longitude>72.189667</Longitude>
+          <Speed>200</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D271I</Name>
+          <Type>Normal</Type>
+          <Latitude>21.753186</Latitude>
+          <Longitude>72.028550</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BVR2">
+        <AppTr_Waypoint ID="1">
+          <Name>BVR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.750639</Latitude>
+          <Longitude>72.189667</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D264H</Name>
+          <Type>Normal</Type>
+          <Latitude>21.736589</Latitude>
+          <Longitude>72.047231</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="D253L">
+        <AppTr_Waypoint ID="1">
+          <Name>D253L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.691828</Latitude>
+          <Longitude>71.984289</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="NOKIL">
+        <AppTr_Waypoint ID="1">
+          <Name>NOKIL</Name>
+          <Type>Normal</Type>
+          <Latitude>21.929722</Latitude>
+          <Longitude>71.784167</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D296N</Name>
+          <Type>Normal</Type>
+          <Latitude>21.850892</Latitude>
+          <Longitude>71.963064</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D282L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.792088</Latitude>
+          <Longitude>71.978981</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D268L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.743520</Latitude>
+          <Longitude>71.974478</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D254L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.695383</Latitude>
+          <Longitude>71.982757</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="6">
+          <Name>D253L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.691828</Latitude>
+          <Longitude>71.984289</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Left</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="VDM25">
+      <App_Waypoint ID="1">
+        <Name>FD25</Name>
+        <Type>Normal</Type>
+        <Latitude>21.799733</Latitude>
+        <Longitude>72.297517</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>MD25</Name>
+        <Type>Normal</Type>
+        <Latitude>21.757972</Latitude>
+        <Longitude>72.205756</Longitude>
+        <Speed>0</Speed>
+        <Altitude>276</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW25</Name>
+        <Type>Runway</Type>
+        <Latitude>21.755461</Latitude>
+        <Longitude>72.194258</Longitude>
+        <Speed>0</Speed>
+        <Altitude>91</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(2100)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>244</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>BVR</Name>
+        <Type>Normal</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>BVR</Name>
+        <Type>Hold</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>046</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="AAE">
+        <AppTr_Waypoint ID="1">
+          <Name>AAE</Name>
+          <Type>Normal</Type>
+          <Latitude>23.068694</Latitude>
+          <Longitude>72.628750</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D017N</Name>
+          <Type>Normal</Type>
+          <Latitude>21.974397</Latitude>
+          <Longitude>72.263597</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D028L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.927198</Latitude>
+          <Longitude>72.290883</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D039L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.906013</Latitude>
+          <Longitude>72.325326</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D050L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.879114</Latitude>
+          <Longitude>72.354767</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="6">
+          <Name>D061L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.847494</Latitude>
+          <Longitude>72.378126</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="7">
+          <Name>D064L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.838514</Latitude>
+          <Longitude>72.382883</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BVR1">
+        <AppTr_Waypoint ID="1">
+          <Name>BVR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.750639</Latitude>
+          <Longitude>72.189667</Longitude>
+          <Speed>200</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D046I</Name>
+          <Type>Normal</Type>
+          <Latitude>21.855169</Latitude>
+          <Longitude>72.305658</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BVR2">
+        <AppTr_Waypoint ID="1">
+          <Name>BVR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.750639</Latitude>
+          <Longitude>72.189667</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D052H</Name>
+          <Type>Normal</Type>
+          <Latitude>21.832983</Latitude>
+          <Longitude>72.302594</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="D064Q">
+        <AppTr_Waypoint ID="1">
+          <Name>D064Q</Name>
+          <Type>Normal</Type>
+          <Latitude>21.875061</Latitude>
+          <Longitude>72.463464</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D064L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.838514</Latitude>
+          <Longitude>72.382883</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="SUR">
+        <AppTr_Waypoint ID="1">
+          <Name>SUR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.110667</Latitude>
+          <Longitude>72.740361</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D141N</Name>
+          <Type>Normal</Type>
+          <Latitude>21.568478</Latitude>
+          <Longitude>72.347067</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D122L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.644555</Latitude>
+          <Longitude>72.372143</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D103L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.705517</Latitude>
+          <Longitude>72.399412</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D084L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.771407</Latitude>
+          <Longitude>72.403848</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="6">
+          <Name>D065L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.835048</Latitude>
+          <Longitude>72.384937</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="7">
+          <Name>D064L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.838514</Latitude>
+          <Longitude>72.382883</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Left</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="ILS25">
+      <App_Waypoint ID="1">
+        <Name>CI25</Name>
+        <Type>Normal</Type>
+        <Latitude>21.828733</Latitude>
+        <Longitude>72.387733</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>FI25</Name>
+        <Type>Normal</Type>
+        <Latitude>21.795386</Latitude>
+        <Longitude>72.299581</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW25</Name>
+        <Type>Runway</Type>
+        <Latitude>21.755461</Latitude>
+        <Longitude>72.194258</Longitude>
+        <Speed>0</Speed>
+        <Altitude>91</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(2100)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>248</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>BVR</Name>
+        <Type>Normal</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>BVR</Name>
+        <Type>Hold</Type>
+        <Latitude>21.750639</Latitude>
+        <Longitude>72.189667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>064</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="AAE">
+        <AppTr_Waypoint ID="1">
+          <Name>AAE</Name>
+          <Type>Normal</Type>
+          <Latitude>23.068694</Latitude>
+          <Longitude>72.628750</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D017N</Name>
+          <Type>Normal</Type>
+          <Latitude>21.974397</Latitude>
+          <Longitude>72.263597</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D030L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.923809</Latitude>
+          <Longitude>72.297462</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D043L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.896845</Latitude>
+          <Longitude>72.336672</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D056L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.862382</Latitude>
+          <Longitude>72.368323</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="6">
+          <Name>D058L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.856903</Latitude>
+          <Longitude>72.371997</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BVR">
+        <AppTr_Waypoint ID="1">
+          <Name>BVR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.750639</Latitude>
+          <Longitude>72.189667</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>(INTC)</Name>
+          <Type>Intc</Type>
+          <Latitude>21.795386</Latitude>
+          <Longitude>72.299581</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>064</Hdg_Crs_value>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <RadialtoIntercept>248</RadialtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>FI25</Name>
+          <Type>Normal</Type>
+          <Latitude>21.795386</Latitude>
+          <Longitude>72.299581</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>FI25</Name>
+          <Type>PBD</Type>
+          <Latitude>21.795386</Latitude>
+          <Longitude>72.299581</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Hdg_Crs>0</Hdg_Crs>
+          <Hdg_Crs_value>113</Hdg_Crs_value>
+          <Flytype>Fly-over</Flytype>
+          <BankLimit>25</BankLimit>
+          <DMEtoIntercept>004</DMEtoIntercept>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="D069Q">
+        <AppTr_Waypoint ID="1">
+          <Name>D069Q</Name>
+          <Type>Normal</Type>
+          <Latitude>21.852294</Latitude>
+          <Longitude>72.474014</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="SUR">
+        <AppTr_Waypoint ID="1">
+          <Name>SUR</Name>
+          <Type>Normal</Type>
+          <Latitude>21.110667</Latitude>
+          <Longitude>72.740361</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D141N</Name>
+          <Type>Normal</Type>
+          <Latitude>21.568478</Latitude>
+          <Longitude>72.347067</Longitude>
+          <Speed>0</Speed>
+          <Altitude>0</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>at</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D126L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.632991</Latitude>
+          <Longitude>72.363730</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D111L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.678844</Latitude>
+          <Longitude>72.390595</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D096L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.729596</Latitude>
+          <Longitude>72.403786</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="6">
+          <Name>D081L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.781790</Latitude>
+          <Longitude>72.402392</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="7">
+          <Name>D078L</Name>
+          <Type>Normal</Type>
+          <Latitude>21.792239</Latitude>
+          <Longitude>72.399875</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Left</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVY25">
+      <App_Waypoint ID="1">
+        <Name>BV616</Name>
+        <Type>Normal</Type>
+        <Latitude>21.835231</Latitude>
+        <Longitude>72.405058</Longitude>
+        <Speed>200</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>BV615</Name>
+        <Type>Normal</Type>
+        <Latitude>21.797578</Latitude>
+        <Longitude>72.305439</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW25</Name>
+        <Type>Runway</Type>
+        <Latitude>21.755461</Latitude>
+        <Longitude>72.194258</Longitude>
+        <Speed>0</Speed>
+        <Altitude>91</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>BV617</Name>
+        <Type>Normal</Type>
+        <Latitude>21.711378</Latitude>
+        <Longitude>72.078169</Longitude>
+        <Speed>210</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>BV618</Name>
+        <Type>Normal</Type>
+        <Latitude>21.819817</Latitude>
+        <Longitude>72.030917</Longitude>
+        <Speed>210</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>BV612</Name>
+        <Type>Normal</Type>
+        <Latitude>21.943764</Latitude>
+        <Longitude>72.358011</Longitude>
+        <Speed>210</Speed>
+        <Altitude>3100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="7">
+        <Name>BV612</Name>
+        <Type>Hold</Type>
+        <Latitude>21.943764</Latitude>
+        <Longitude>72.358011</Longitude>
+        <Speed>230</Speed>
+        <Altitude>3100</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>158</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="BV611">
+        <AppTr_Waypoint ID="1">
+          <Name>BV611</Name>
+          <Type>Normal</Type>
+          <Latitude>21.879083</Latitude>
+          <Longitude>72.521344</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BV612">
+        <AppTr_Waypoint ID="1">
+          <Name>BV612</Name>
+          <Type>Normal</Type>
+          <Latitude>21.943764</Latitude>
+          <Longitude>72.358011</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="BV613">
+        <AppTr_Waypoint ID="1">
+          <Name>BV613</Name>
+          <Type>Normal</Type>
+          <Latitude>21.726686</Latitude>
+          <Longitude>72.452036</Longitude>
+          <Speed>210</Speed>
+          <Altitude>3100</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

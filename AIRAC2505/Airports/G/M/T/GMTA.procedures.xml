@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="GMTA">
+    <Approach Name="VDM17">
+      <App_Waypoint ID="1">
+        <Name>FD17</Name>
+        <Type>Normal</Type>
+        <Latitude>35.307211</Latitude>
+        <Longitude>-3.880211</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>MD17</Name>
+        <Type>Normal</Type>
+        <Latitude>35.205056</Latitude>
+        <Longitude>-3.843944</Longitude>
+        <Speed>0</Speed>
+        <Altitude>388</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW17</Name>
+        <Type>Runway</Type>
+        <Latitude>35.188483</Latitude>
+        <Longitude>-3.841317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>166</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(520)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>520</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>164</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>ALM</Name>
+        <Type>DmeIntc</Type>
+        <Latitude>35.188108</Latitude>
+        <Longitude>-3.837939</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>182</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <DMEtoIntercept>4.0</DMEtoIntercept>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>(INTC)</Name>
+        <Type>Intc</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>185</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>350</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <RadialtoIntercept>142</RadialtoIntercept>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="7">
+        <Name>UVMOL</Name>
+        <Type>Normal</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>0</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="UVMOL">
+        <AppTr_Waypoint ID="1">
+          <Name>UVMOL</Name>
+          <Type>Normal</Type>
+          <Latitude>35.428781</Latitude>
+          <Longitude>-4.072425</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>D329S</Name>
+          <Type>Normal</Type>
+          <Latitude>35.452246</Latitude>
+          <Longitude>-4.032885</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>D336S</Name>
+          <Type>Normal</Type>
+          <Latitude>35.469688</Latitude>
+          <Longitude>-3.991925</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="4">
+          <Name>D343S</Name>
+          <Type>Normal</Type>
+          <Latitude>35.482919</Latitude>
+          <Longitude>-3.948646</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="5">
+          <Name>D344S</Name>
+          <Type>Normal</Type>
+          <Latitude>35.484917</Latitude>
+          <Longitude>-3.942008</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Right</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="ILS17">
+      <App_Waypoint ID="1">
+        <Name>TA102</Name>
+        <Type>Normal</Type>
+        <Latitude>35.393389</Latitude>
+        <Longitude>-3.873778</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>TA104</Name>
+        <Type>Normal</Type>
+        <Latitude>35.310611</Latitude>
+        <Longitude>-3.860667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW17</Name>
+        <Type>Runway</Type>
+        <Latitude>35.188483</Latitude>
+        <Longitude>-3.841317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>166</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(1300)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>173</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>TA708</Name>
+        <Type>Normal</Type>
+        <Latitude>35.274083</Latitude>
+        <Longitude>-3.922194</Longitude>
+        <Speed>185</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UVMOL</Name>
+        <Type>Normal</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>0</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="7">
+        <Name>UVMOL</Name>
+        <Type>Hold</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>210</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>142</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="ABGIS">
+        <AppTr_Waypoint ID="1">
+          <Name>ABGIS</Name>
+          <Type>Normal</Type>
+          <Latitude>35.446114</Latitude>
+          <Longitude>-3.746653</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3300</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="IDMEB">
+        <AppTr_Waypoint ID="1">
+          <Name>IDMEB</Name>
+          <Type>Normal</Type>
+          <Latitude>35.475181</Latitude>
+          <Longitude>-3.886517</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UVMOL">
+        <AppTr_Waypoint ID="1">
+          <Name>UVMOL</Name>
+          <Type>Normal</Type>
+          <Latitude>35.428781</Latitude>
+          <Longitude>-4.072425</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVX17">
+      <App_Waypoint ID="1">
+        <Name>TA104</Name>
+        <Type>Normal</Type>
+        <Latitude>35.310611</Latitude>
+        <Longitude>-3.860667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>TA106</Name>
+        <Type>Normal</Type>
+        <Latitude>35.205056</Latitude>
+        <Longitude>-3.843944</Longitude>
+        <Speed>0</Speed>
+        <Altitude>391</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW17</Name>
+        <Type>Runway</Type>
+        <Latitude>35.188483</Latitude>
+        <Longitude>-3.841317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>166</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(1300)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>173</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>TA708</Name>
+        <Type>Normal</Type>
+        <Latitude>35.274083</Latitude>
+        <Longitude>-3.922194</Longitude>
+        <Speed>185</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>ABGIS</Name>
+        <Type>Normal</Type>
+        <Latitude>35.446114</Latitude>
+        <Longitude>-3.746653</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="ABGIS">
+        <AppTr_Waypoint ID="1">
+          <Name>ABGIS</Name>
+          <Type>Normal</Type>
+          <Latitude>35.446114</Latitude>
+          <Longitude>-3.746653</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3300</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="IDMEB">
+        <AppTr_Waypoint ID="1">
+          <Name>IDMEB</Name>
+          <Type>Normal</Type>
+          <Latitude>35.475181</Latitude>
+          <Longitude>-3.886517</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UVMOL">
+        <AppTr_Waypoint ID="1">
+          <Name>UVMOL</Name>
+          <Type>Normal</Type>
+          <Latitude>35.428781</Latitude>
+          <Longitude>-4.072425</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVY17">
+      <App_Waypoint ID="1">
+        <Name>TA104</Name>
+        <Type>Normal</Type>
+        <Latitude>35.310611</Latitude>
+        <Longitude>-3.860667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>TA106</Name>
+        <Type>Normal</Type>
+        <Latitude>35.205056</Latitude>
+        <Longitude>-3.843944</Longitude>
+        <Speed>0</Speed>
+        <Altitude>391</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW17</Name>
+        <Type>Runway</Type>
+        <Latitude>35.188483</Latitude>
+        <Longitude>-3.841317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>166</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>TA808</Name>
+        <Type>Normal</Type>
+        <Latitude>35.287000</Latitude>
+        <Longitude>-3.801072</Longitude>
+        <Speed>160</Speed>
+        <Altitude>3000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Left</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>ABGIS</Name>
+        <Type>Normal</Type>
+        <Latitude>35.446114</Latitude>
+        <Longitude>-3.746653</Longitude>
+        <Speed>0</Speed>
+        <Altitude>3300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="ABGIS">
+        <AppTr_Waypoint ID="1">
+          <Name>ABGIS</Name>
+          <Type>Normal</Type>
+          <Latitude>35.446114</Latitude>
+          <Longitude>-3.746653</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3300</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="IDMEB">
+        <AppTr_Waypoint ID="1">
+          <Name>IDMEB</Name>
+          <Type>Normal</Type>
+          <Latitude>35.475181</Latitude>
+          <Longitude>-3.886517</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UVMOL">
+        <AppTr_Waypoint ID="1">
+          <Name>UVMOL</Name>
+          <Type>Normal</Type>
+          <Latitude>35.428781</Latitude>
+          <Longitude>-4.072425</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+    <Approach Name="RNVZ17">
+      <App_Waypoint ID="1">
+        <Name>TA104</Name>
+        <Type>Normal</Type>
+        <Latitude>35.310611</Latitude>
+        <Longitude>-3.860667</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>TA106</Name>
+        <Type>Normal</Type>
+        <Latitude>35.205056</Latitude>
+        <Longitude>-3.843944</Longitude>
+        <Speed>0</Speed>
+        <Altitude>391</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW17</Name>
+        <Type>Runway</Type>
+        <Latitude>35.188483</Latitude>
+        <Longitude>-3.841317</Longitude>
+        <Speed>0</Speed>
+        <Altitude>166</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>(1300)</Name>
+        <Type>ConstHdgtoAlt</Type>
+        <Latitude>0.000000</Latitude>
+        <Longitude>0.000000</Longitude>
+        <Speed>0</Speed>
+        <Altitude>1300</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Hdg_Crs>0</Hdg_Crs>
+        <Hdg_Crs_value>173</Hdg_Crs_value>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>TA708</Name>
+        <Type>Normal</Type>
+        <Latitude>35.274083</Latitude>
+        <Longitude>-3.922194</Longitude>
+        <Speed>185</Speed>
+        <Altitude>2400</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="6">
+        <Name>UVMOL</Name>
+        <Type>Normal</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>0</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="7">
+        <Name>UVMOL</Name>
+        <Type>Hold</Type>
+        <Latitude>35.428781</Latitude>
+        <Longitude>-4.072425</Longitude>
+        <Speed>210</Speed>
+        <Altitude>4000</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Hld_Rad_or_Inbd>Inbd</Hld_Rad_or_Inbd>
+        <Hld_Rad_value>142</Hld_Rad_value>
+        <Hld_Turn>Right</Hld_Turn>
+        <Hld_Time_or_Dist>Time</Hld_Time_or_Dist>
+        <Hld_td_value>1.0</Hld_td_value>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="ABGIS">
+        <AppTr_Waypoint ID="1">
+          <Name>ABGIS</Name>
+          <Type>Normal</Type>
+          <Latitude>35.446114</Latitude>
+          <Longitude>-3.746653</Longitude>
+          <Speed>0</Speed>
+          <Altitude>3300</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="IDMEB">
+        <AppTr_Waypoint ID="1">
+          <Name>IDMEB</Name>
+          <Type>Normal</Type>
+          <Latitude>35.475181</Latitude>
+          <Longitude>-3.886517</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="UVMOL">
+        <AppTr_Waypoint ID="1">
+          <Name>UVMOL</Name>
+          <Type>Normal</Type>
+          <Latitude>35.428781</Latitude>
+          <Longitude>-4.072425</Longitude>
+          <Speed>0</Speed>
+          <Altitude>4000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>TA102</Name>
+          <Type>Normal</Type>
+          <Latitude>35.393389</Latitude>
+          <Longitude>-3.873778</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2400</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>

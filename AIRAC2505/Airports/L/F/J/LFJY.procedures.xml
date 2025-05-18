@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Data provided by Navigraph - www.navigraph.com
+Data copyright (c) 2025 Jeppesen
+This data may be used for ground based recreational computer game
+simulation software only, and my not be recompiled, interpreted,
+or distributed for any purpose without the written consent of Navigraph.
+
+The contents of this database is dated and must not be used for real
+world navigation as it is unlawful and unsafe to do so.
+-->
+<ProceduresDB version="AIRAC 2505 Rev.1 by Navigraph/Navdata" build="05/06/2025 15:24 UTC" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd FMC.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Airport ICAOcode="LFJY">
+    <Approach Name="RNVA23L">
+      <App_Waypoint ID="1">
+        <Name>IJY23</Name>
+        <Type>Normal</Type>
+        <Latitude>49.130028</Latitude>
+        <Longitude>6.069000</Longitude>
+        <Speed>220</Speed>
+        <Altitude>2600</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="2">
+        <Name>FJY23</Name>
+        <Type>Normal</Type>
+        <Latitude>49.087667</Latitude>
+        <Longitude>5.990694</Longitude>
+        <Speed>160</Speed>
+        <Altitude>2600</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="3">
+        <Name>RW23L</Name>
+        <Type>Runway</Type>
+        <Latitude>49.031464</Latitude>
+        <Longitude>5.887111</Longitude>
+        <Speed>0</Speed>
+        <Altitude>915</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="4">
+        <Name>JY420</Name>
+        <Type>Normal</Type>
+        <Latitude>49.004917</Latitude>
+        <Longitude>5.838333</Longitude>
+        <Speed>0</Speed>
+        <Altitude>0</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>at</AltitudeRestriction>
+        <Flytype>Fly-over</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Auto</Sp_Turn>
+      </App_Waypoint>
+      <App_Waypoint ID="5">
+        <Name>JY400</Name>
+        <Type>Normal</Type>
+        <Latitude>49.215306</Latitude>
+        <Longitude>5.673389</Longitude>
+        <Speed>0</Speed>
+        <Altitude>2600</Altitude>
+        <AltitudeCons>0</AltitudeCons>
+        <AltitudeRestriction>above</AltitudeRestriction>
+        <Flytype>Fly-by</Flytype>
+        <BankLimit>25</BankLimit>
+        <Sp_Turn>Right</Sp_Turn>
+      </App_Waypoint>
+      <App_Transition Name="JY400">
+        <AppTr_Waypoint ID="1">
+          <Name>JY400</Name>
+          <Type>Normal</Type>
+          <Latitude>49.215306</Latitude>
+          <Longitude>5.673389</Longitude>
+          <Speed>0</Speed>
+          <Altitude>2600</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>JY402</Name>
+          <Type>Normal</Type>
+          <Latitude>49.207083</Latitude>
+          <Longitude>5.833333</Longitude>
+          <Speed>0</Speed>
+          <Altitude>5500</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>below</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="3">
+          <Name>JY404</Name>
+          <Type>Normal</Type>
+          <Latitude>49.195528</Latitude>
+          <Longitude>6.051389</Longitude>
+          <Speed>220</Speed>
+          <Altitude>3000</Altitude>
+          <AltitudeCons>2600</AltitudeCons>
+          <AltitudeRestriction>between</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+      <App_Transition Name="MTZ">
+        <AppTr_Waypoint ID="1">
+          <Name>MTZ</Name>
+          <Type>Normal</Type>
+          <Latitude>49.276139</Latitude>
+          <Longitude>6.208611</Longitude>
+          <Speed>0</Speed>
+          <Altitude>5000</Altitude>
+          <AltitudeCons>0</AltitudeCons>
+          <AltitudeRestriction>above</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+        <AppTr_Waypoint ID="2">
+          <Name>JY404</Name>
+          <Type>Normal</Type>
+          <Latitude>49.195528</Latitude>
+          <Longitude>6.051389</Longitude>
+          <Speed>220</Speed>
+          <Altitude>3000</Altitude>
+          <AltitudeCons>2600</AltitudeCons>
+          <AltitudeRestriction>between</AltitudeRestriction>
+          <Flytype>Fly-by</Flytype>
+          <BankLimit>25</BankLimit>
+          <Sp_Turn>Auto</Sp_Turn>
+        </AppTr_Waypoint>
+      </App_Transition>
+    </Approach>
+  </Airport>
+</ProceduresDB>
